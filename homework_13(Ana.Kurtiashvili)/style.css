@@ -1,0 +1,230 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    padding: 20px 29px 19px 35px;
+    display: flex;
+    border-bottom: 1px solid rgba(236, 237, 237, 1);
+     background-color: white;
+}
+
+.left-side {
+    display: flex;
+    height: 58px;
+    width: 555px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 89px;
+height: 36px;
+margin-right: 80px;
+}
+
+.logo::before {
+    content: "P";
+    color: rgb(13, 77, 93);
+    margin-right: 1px;
+}
+
+.logo::after {
+    content: "S";
+    color: rgb(4, 49, 4);
+}
+
+.search-bar {
+    width: 357px;
+height: 58px;
+}
+
+
+    .header-search {
+  display: flex;
+  align-items: center;
+  width: 357px;
+height: 58px;
+}
+
+.header-search input[type="search"] {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(236, 243, 245, 1);
+  font-size: 14px;
+  background-color: rgba(236, 243, 245, 1);
+  color: rgba(137, 146, 142, 1);
+  height: 55px;
+  font-size: 200;
+  outline: none;
+}
+
+
+.right-side {
+    width: 419px;
+height: 58px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 482px;
+}
+
+.date {
+height: 19px;
+font-family: sans-serif;
+font-weight: 200;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+}
+
+.add-table-button {
+    display: flex;
+    align-items: center;
+    width: 175px;
+height: 56px;
+}
+
+.add-table-button button[type="button"] {
+    width: 100%;
+    padding: 19px;
+    border-radius: 8px;
+    border: 1px solid rgba(177, 206, 212, 1);
+    font-size: 16px;
+    font-weight: 200;
+    color: rgba(44, 56, 50, 1);
+    background-color: rgba(177, 206, 212, 1);
+    margin-left: 21px;
+}
+
+
+
+main {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    background-color: white;
+}
+
+.starters {
+    margin: 10px;
+    display: block;
+    width: 1000px;
+    height: 300px;
+}
+
+.box {
+    display: inline-block;
+
+    width: 200px;
+height: 220px;
+     border-radius: 16px;
+       margin: 15px;
+  vertical-align: top;
+  font-size: 14px;
+  background-color: rgba(236, 237, 237, 1);
+}
+
+.food-image {
+    height: 143px;
+
+    border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-width: 1px;
+background-image: url(../2666ca8744e1f1ed8cdbc415ffc87d8b9c0208c7.jpg);
+background-repeat: no-repeat;
+background-position: center;
+ background-size: auto;
+}
+
+
+.desserts {
+   
+    margin: 10px;
+    display: block;
+    width: 1000px;
+     height: 300px;
+}
+
+
+.drinks {
+   
+    margin: 10px;
+    height: 220px;
+    display: block;
+    width: 1000px;
+     height: 300px;
+    
+}
+
+.box-text > h3 {
+font-weight: 500;
+font-style: Medium;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 1);
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.box-text> span {
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 1);
+margin: 10px;
+
+}
+
+.navigation {
+    background-color: rgba(234, 240, 240, 1);
+    width: 1100px;
+    height: 110px;
+    display: block;
+text-align: center;
+ padding: 0;
+  margin: 0;
+    padding: 30px 0;
+}
+
+.nav-links {
+    display: inline-block;
+    background-color: rgba(74, 92, 47, 1);
+    width: 158px;
+height: 58px;
+border-radius: 10px;
+color: black;
+text-align: center;
+margin: 0 40px; 
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+  color: white;
+  padding: 20px;
+  width: 160px;
+  line-height: normal;
+
+}
+
+.nav-links:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+footer {
+     background-color: white;
+}
+
